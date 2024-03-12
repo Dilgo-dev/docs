@@ -1,0 +1,18 @@
+{
+    title: "Docs 📚";
+    description: "This is the documentation for the Documentation API. With this API, you can retrieve, create, modify, or delete documentation.";
+    body: [
+        { type: "text", content: "..." }
+        { type: "warning", title: "Warning", content: "Attention !" },
+        { type: "category", "categories": [ 
+            { "title": "Get", content: [
+                { type: "header", content: "Get" },
+                { type: "text", content: "You can modify a documentation with the @h@/modify/:name@/h@ url with the name variable as the name of the article" },
+            ]},
+            { "title": "Create" },
+            { "title": "Modify" },
+            { "title": "Delete" }
+        ] }
+    ]
+
+}
