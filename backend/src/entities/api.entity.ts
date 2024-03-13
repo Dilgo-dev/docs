@@ -4,7 +4,6 @@ import sequelize from './sequelize.js';
 class Api extends Model {
     public id!: number;
     public title!: string;
-    public content?: ApiContent;
 }
 
 Api.init(
