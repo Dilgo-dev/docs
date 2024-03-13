@@ -61,5 +61,7 @@ const apiContentSchema = z.object({
     body: z.array(apiBodySchema),
 });
 
+export type ApiContent = z.infer<typeof apiContentSchema>;
+
 export default apiContentSchema;
 
