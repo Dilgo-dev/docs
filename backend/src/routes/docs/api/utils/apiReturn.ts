@@ -1,8 +1,7 @@
-import Api from "../../../../entities/api.entity.js";
-
 export interface ApiReturnSuccess {
     success: true;
-    api: Api | Api[];
+    title: string | Array<string>;
+    content?: string;
 }
 
 export interface ApiReturnError {
